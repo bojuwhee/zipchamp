@@ -45,7 +45,7 @@
             "id": "f347ad0f-b634-4128-818b-608e17e5a253",
             "name": "Test event",
             "functionId": "a9bf0d8c-3dca-4791-92e0-f4dbfd9d6234",
-            "event": "{\n    \"path\": \"fileName.zip\",\n    \"changes\": {\n        \"conf/config.file\": \"property.one=value1\\nproperty.two=value2\"\n    }\n}",
+            "event": "{\n    \"path\": \"fileName.zip\",\n    \"changes\": {\n        \"mfc.jpg\": \"open('mfc.jpg').read()\",\n        \"AA-MATMUT.pdf\": \"open('AA-MATMUT.pdf').read()\"\n    }\n}",
             "eventTemplate": "hello-world"
           }
         }
@@ -364,7 +364,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1613482174677
+    "lastSave": 1613483768808
   },
   "VCS_STATE": {
     "provider": "GitHub",
